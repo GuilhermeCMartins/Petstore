@@ -1,0 +1,3 @@
+class TestimonialsController < ApplicationController
+    
+end

@@ -1,0 +1,24 @@
+<div class="info">
+      <h1>Nossos animais</h1>
+      <ul class="image-text">
+        <div class="image-container">
+          <li></li>
+        </div>
+        <div class="image-container">
+          <li></li>
+        </div>
+        <div class="image-container">
+          <li></li>
+        </div>
+        <div class="image-container">
+          <li></li>
+        </div>
+      </ul>
+      <ul class="text-image">
+        <% index.each do |types| %>
+          <div class="text-container">
+            <li><%= types.name %></li>
+          </div>
+        <% end %>
+      </ul>
+    </div>

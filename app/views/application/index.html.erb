@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Petstore</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body>
+    <div class="all-header">
+      <div class="header">
+        <div class="logo">
+          <h4>Logo</h4>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="">header link one</a></li>
+            <li><a href="">header link two</a></li>
+            <li><a href="">header link three</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-two">
+        <div class="container">
+          <h3>É sua hora de ter um bichinho</h3>
+          <div class="maintext">
+            <p>
+            Receba noticias de novas encomendas todo dia!
+            </p>
+          </div>
+          <button type="button" class="button">Inscreva-se para receber novidades.</button>
+        </div>
+        <div class="image">
+          <img src="" alt="placeholder" />
+        </div>
+      </div>
+    </div>
+
+    <%= render 'pets_types/index' %>
+
+    <%= render 'testimonials/show'%>
+
+    <div class="action">
+      <div class="box-blue">
+        <div class="textcall">
+          <h4>O melhor site de venda de animais</h4>
+        </div>
+        <div class="paragraph-action">
+          <p>Somos os melhor site de venda de animais apenas.</p>
+        </div>
+        <div class="button-bottom">
+          <button type="button" class="button_two">Ir para o catalago</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Author:Guizinntc e Leozinntc</p>
+    </footer>
+  </body>
+
+  </body>
+</html>
